@@ -1,0 +1,33 @@
+{
+  "name": "yapool",
+  "version": "1.0.0",
+  "files": [
+    "index.js"
+  ],
+  "description": "Yet Another object pool in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap",
+    "snap": "tap",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/yapool.git"
+  },
+  "keywords": [],
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacs/yapool/issues"
+  },
+  "homepage": "https://github.com/isaacs/yapool#readme",
+  "devDependencies": {
+    "tap": "^15.1.6"
+  },
+  "tap": {
+    "check-coverage": true
+  }
+}
